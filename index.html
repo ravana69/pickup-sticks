@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pickup sticks</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<canvas id="canvas"></canvas>
+
+<script async src="https://ga.jspm.io/npm:es-module-shims@1.6.2/dist/es-module-shims.js"></script>
+
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.147.0/build/three.module.js",
+      "three/examples/": "https://unpkg.com/three@0.147.0/examples/",
+      "meshline": "https://unpkg.com/meshline@3.1.6/dist/index.js",
+      "@/utils/": "https://unpkg.com/@callumacrae/utils@0.5.0/built/",
+      "seed-random": "https://cdn.skypack.dev/seed-random@2.2.0",
+        "tweakpane": "https://cdn.skypack.dev/tweakpane@3.1.1",
+          "@tweakpane/plugin-essentials": "https://cdn.skypack.dev/@tweakpane/plugin-essentials@0.1.5",
+          "d3-ease": "https://cdn.skypack.dev/d3-ease@3.0.1",
+          "matter-js": "https://cdn.skypack.dev/matter-js@0.18.0",
+          "simplex-noise": "https://cdn.skypack.dev/simplex-noise@3.0.1"
+    }
+  }
+</script>
+<!-- partial -->
+  <script type="module" src="./script.js"></script>
+
+</body>
+</html>
